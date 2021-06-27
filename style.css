@@ -1,0 +1,23 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.row:first-child, .row:nth-child(2n+3) {
+    background: #CCC
+}
+
+.col-details {
+    margin-right: 25px;
+    font-size: 24px;
+}
+
+.img {
+    width: 480px;
+    height: 270px;
+}
