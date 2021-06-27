@@ -21,3 +21,14 @@
     width: 480px;
     height: 270px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .row {
+        flex-direction: column;
+    }
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+  }
