@@ -12,9 +12,15 @@ head h1 {
     padding: 15px;
 }
 
-.row:first-child, .row:nth-child(2n+3) {
+.row:nth-child(odd) {
     background: #CCC
 }
+
+
+.row:nth-child(even) {
+    background: rgb(123, 123, 123);
+}
+
 
 .col-details {
     font-size: 14px;
