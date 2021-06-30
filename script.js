@@ -9,7 +9,7 @@ fetch("footage.json")
                 <div class="col-details">
                     <p><b>Date:</b> ${data[item]["date"]}</p>
                     <p><b>Time:</b> ${data[item]["time"]}</p>
-                    <p><b>Source:</b> ${data[item]["source_file"]}.mp4</p>
+                    <p><b>Source:</b> ${data[item]["source_file"]}</p>
                 </div>
                 <div class="col-image"><img class="img" src="${data[item]["url"]}" alt=""></div>
             </div>`;
