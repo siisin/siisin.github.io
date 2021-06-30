@@ -2,6 +2,10 @@
     box-sizing:border-box;
 }
 
+head {
+    text-align: center;
+}
+
 .row {
     display: flex;
     flex-direction: column;
